@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-plugin-theme",
+  "version": "0.1.0",
+  "description": "A Gatsby plugin for easily adding emotion theme context.",
+  "keywords": [
+    "gatsby-plugin-theme",
+    "gatsby-plugin",
+    "zce"
+  ],
+  "repository": "zce/gatsby-plugin-theme",
+  "license": "MIT",
+  "author": "zce <w@zce.me> (https://zce.me)",
+  "main": "gatsby-node.js",
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^11.0.0",
+    "@emotion/cache": "^11.0.0",
+    "@emotion/server": "^11.0.0"
+  },
+  "devDependencies": {
+    "@emotion/react": "11.1.2",
+    "gatsby": "2.29.0",
+    "standard": "16.0.3"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.0.0",
+    "gatsby": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
