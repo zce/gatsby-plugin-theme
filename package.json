@@ -27,7 +27,7 @@
   "devDependencies": {
     "@emotion/react": "11.1.2",
     "gatsby": "2.29.0",
-    "standard": "16.0.3"
+    "standard": "16.0.4"
   },
   "peerDependencies": {
     "@emotion/react": "^11.0.0",
